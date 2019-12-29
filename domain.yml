@@ -1,0 +1,38 @@
+intents:
+- greet
+- goodbye
+- query_knowledge_base
+- bot_challenge
+entities:
+- hotel
+- restaurant
+- cuisine
+slots:
+  cuisine:
+    type: text
+  hotel:
+    type: text
+  restaurant:
+    type: text
+  results:
+    type: list
+templates:
+  utter_greet:
+  - text: جی فرمائیں
+  - text: جی سر
+  - text: میں آپ کی کیا مدد کر سکتا ہوں
+  utter_goodbye:
+  - text: خدا حافظ
+  - text: دوبارہ ضرور آیئں
+  utter_ask_rephrase:
+  - text: میں آپکی بات نہیں سمجھ سکا،آپ دوبارہ بتائیں
+  - text: سوری میں آپکی بات نہیں سمجھ پایا؟ دوبارہ بتائیں
+  utter_iamabot:
+  - text: میں ایک BOT ہوں
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_rephrase
+- utter_iamabot
+- action_query_database
+- action_query_cuisine
