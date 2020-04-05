@@ -1,4 +1,4 @@
-language: ur
+language: ur_model
 
 pipeline:
   - name: SpacyNLP

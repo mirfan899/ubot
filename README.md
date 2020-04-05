@@ -1,7 +1,12 @@
-installing rasa
-```shell
-pip install rasa==1.4.6
-pip install rasa-x==0.22.2 --extra-index-url https://pypi.rasa.com/simple
+## Install Urdu model
+```shell script
+pip3 install ur/ur_model-0.0.0.tar.gz
+```
+
+## Installing rasa
+```shell script
+pip install rasa==1.8.1
+pip install rasa-x==0.26.1 --extra-index-url https://pypi.rasa.com/simple
 ```
 
 ### Train the model
