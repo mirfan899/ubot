@@ -17,6 +17,8 @@ python -m rasa train
 ### Run Rasa server
 ```shell script
 python -m rasa run
+## run with core policy
+python -m rasa run --enable-api --cors "*"
 ```
 
 ### Run the custom actions
