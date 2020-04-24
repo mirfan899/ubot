@@ -2,3 +2,4 @@
 .DS_Store
 *.db
 .chatbot
+__pycache__
